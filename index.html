@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#130b18">
+  <title>Happy Birthday Swati ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Short+Stack&family=Zeyada&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="intro" id="intro">
+    <div class="intro-glow"></div>
+    <div class="intro-card">
+      <div class="tiny-heart">♡</div>
+      <p class="eyebrow">A little something for you</p>
+      <h1>Hey, Swati</h1>
+      <p class="intro-copy">Some things are better discovered slowly...</p>
+      <button class="open-btn" id="openBtn">
+        <span>Open this letter</span><b>↗</b>
+      </button>
+      <p class="tap-hint">tap to begin · sound on 🎵</p>
+    </div>
+  </div>
+
+  <main class="experience" id="experience" aria-hidden="true">
+    <header class="topbar">
+      <div class="brand">for <span>Swati</span> ♡</div>
+      <button class="music-btn" id="musicBtn" aria-label="Toggle music">
+        <span class="bars"><i></i><i></i><i></i><i></i></span>
+        <span id="musicText">music on</span>
+      </button>
+    </header>
+
+    <section class="hero-copy">
+      <p>birthday no. <span>∞</span></p>
+      <h2>There are a few things<br><em>I wanted to tell you...</em></h2>
+      <span class="scroll-note">drag the little notes around ↓</span>
+    </section>
+
+    <div class="paper-stage" id="paperStage">
+      <div class="paper image paper-a" data-tilt="-5">
+        <span class="tape"></span>
+        <p>and I fell in</p>
+        <p>hate with you 😍</p>
+        <img src="images/s1.jpg" alt="A memory">
+      </div>
+
+      <div class="paper image paper-b" data-tilt="4">
+        <span class="tape"></span>
+        <p>Cutuaaa &lt;3</p>
+        <img src="images/s2.jpg" alt="A memory">
+      </div>
+
+      <div class="paper image paper-c" data-tilt="-3">
+        <span class="tape"></span>
+        <p>How can be</p>
+        <p>someone so bhondu ❤️</p>
+        <img src="images/s3.jpg" alt="A memory">
+      </div>
+
+      <div class="paper red paper-d" data-tilt="5">
+        <span class="tape"></span>
+        <p>maybe it's a blessing</p>
+        <p>in disguise &lt;3</p>
+      </div>
+
+      <div class="paper note paper-e" data-tilt="-2">
+        <span class="tape"></span>
+        <p>Wishing you the</p>
+        <p>happiest Birthdayyyy <span class="red-heart">♥</span></p>
+      </div>
+
+      <div class="paper note paper-f" data-tilt="3">
+        <span class="tape"></span>
+        <p class="big-note">Somehow,</p>
+        <p>you make ordinary days<br>feel a little more special.</p>
+      </div>
+
+      <div class="paper note paper-g" data-tilt="-4">
+        <span class="tape"></span>
+        <p class="big-note">One more thing...</p>
+        <p>you're genuinely<br>pretty cute. 🙄❤️</p>
+      </div>
+    </div>
+
+    <div class="discovery" id="discovery">
+      <span class="line"></span>
+      <span>keep exploring</span>
+      <span class="line"></span>
+    </div>
+
+    <section class="finale" id="finale">
+      <div class="finale-card">
+        <div class="halo"></div>
+        <p class="eyebrow">one last thing...</p>
+        <h3>Happy Birthday,<br><span>Swati</span> ❤️</h3>
+        <p class="final-message">I hope this year gives you a hundred little reasons to smile, a few beautiful surprises, and everything you've been quietly wishing for.</p>
+        <div class="signature">— with a little too much love ♡</div>
+        <button class="replay-btn" id="replayBtn">Replay the little surprise ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="heart-layer" id="heartLayer" aria-hidden="true"></div>
+  <div class="toast" id="toast"></div>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="./audio/birthday.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
